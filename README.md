@@ -22,5 +22,5 @@ Now commit using:
 ```bash
 Docker Desktop offers a single node local cluster which is used here.
 To deploy image on local cluster :
-       kubectl apply -f depployment.yaml
+       kubectl apply -f deployment.yaml
 ```
