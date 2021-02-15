@@ -1,6 +1,6 @@
 # DockerKubernetes-Trial</br>
 
-## Containezation of image
+## Containerization of image
 ```bash
 Dockerfile is the docker image of a simple Hello World python program which is my_script.py.
 
@@ -21,5 +21,6 @@ Now commit using:
 ## Deployment on local cluster
 ```bash
 Docker Desktop offers a single node local cluster which is used here.
-
+To deploy image on local cluster :
+       kubectl apply -f depployment.yaml
 ```
